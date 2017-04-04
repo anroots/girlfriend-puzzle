@@ -17,15 +17,15 @@
 #include <avr/sleep.h> 
 #include <avr/wdt.h> 
 
-const byte BLINK_TIME = 40;
+const byte BLINK_TIME = 50;
 
 // Secret message to flash out
 //
 // I LOVE YOU (ENGLISH)
 // IWAY OVELAY OUYAY (PIG LATIN)
 // 73 87 65 89 79 86 69 76 65 89 79 85 89 65 89 (PIG LATIN IN DECIMAL ASCII)
-const byte MESSAGE[] = {73, 87, 65, 89, 79, 86, 69, 76, 65, 89, 79, 85, 89, 65, 89};
-const byte MESSAGE_LENGTH = 15;
+const byte MESSAGE[] = {73, 87, 65, 89, 32, 79, 86, 69, 76, 65, 89, 32, 79, 85, 89, 65, 89};
+const byte MESSAGE_LENGTH = 17;
 
 const byte RED_PIN = 1;
 const byte GREEN_PIN = 0;
